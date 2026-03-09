@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 2</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .photo {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .lion {
+            height: 200px;
+            width: 600px;
+            position: absolute;
+            top: 500px;
+            left: 0px;
+            animation: lion;
+            animation-duration: 3s;
+            animation-iteration-count: infinite; 
+        }
+
+        @keyframes lion {
+            0% {
+                top: 500px;
+                left: 0px;
+            }
+
+            100% {
+                top: 500px;
+                left: 999px;
+            }
+        }
+         .dog{
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            top: 400px;
+            left: 400px;
+            animation: dog;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+
+         }
+         @keyframes dog{
+            0%{
+                top: 400px;
+                left: 400px;
+            }
+            100%{
+                top: 400px;
+                left: 100vw;
+            }
+         }
+         .cow{
+            height: 400px;
+            width: 400px;
+            position: absolute;
+            top: 340px;
+            left: 700px;
+            animation: cow;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+         }
+         @keyframes cow{
+            0%{
+                 top: 340px;
+                left: 700px;
+            }
+            100%{
+                top: 340px;
+                left: 100vw;
+            }
+         }
+    </style>
+</head>
+
+<body>
+    <img src="7lxr_i9s9_200611.jpg" alt="" class="photo">
+    <img src="lion-unscreen.gif" alt="" class="lion">
+    <img src="./output-onlinegiftools.gif" alt="" class="dog" >
+    <img src="Animals Run Cycle Animations.gif" alt="" class="cow">
+</body>
+
+</html>
